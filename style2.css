@@ -1,0 +1,205 @@
+* { box-sizing: border-box; }
+
+h2 {
+  display: inline-block;
+  margin: 5 auto;
+  text-align: center;
+  width: 10px;
+  font-size: 30px;
+  padding: 10px;
+  background-color: red;
+  border-radius: 5px 5px;
+}
+
+body {
+	background-image: url("https://ccp.arizona.edu/sites/default/files/78152029_0.jpg");
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+  text-align: center;
+  color: #200;
+  font-size: 33px;
+  line-height: 50px;
+  margin-top: 40px;
+  border: 3px soild #D7263D;
+  color: #D7263D;
+  padding: 2px 8%;
+  text-align: centre;
+  background-color: #ffcccc;
+  width: 750px;
+  margin: auto;
+  border-bottom-width: 5px;
+  
+	
+}
+
+
+  p{
+  color: #FFF;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 4px;
+  border: 3px solid #D7263D;
+  color: #D7263D;
+  font-size: 20px;
+  line-height: 25px;
+  padding: 20px 10%;
+  padding-left:15px;
+  padding-right:15px;
+  text-transform: uppercase;
+  background-color: #FFF;
+  width: 750px;
+  margin: auto;
+}
+
+
+
+img{
+	width: 60%;
+	height:auto;							`			
+}
+
+
+ul { 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #D7263D;
+  border: 2px #ffcccc;
+  border-style: hidden;
+}  
+
+li a { 
+  font-size: 20px;
+  font-family: Courier New;
+  display: block;
+  color: #ffcccc; 							
+  padding: 8px 16px;
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+  text-transform: uppercase;
+  border-color:#ffcccc; 
+  letter-spacing: 0.3em;
+ 
+}
+
+li a :last-child {
+  border-bottom: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+} 
+
+/* Fixed sidenav, full height */
+.sidenav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #D7263D;
+  border: 2px #ffcccc;
+  border-style: hidden;
+  z-index: 1;
+  overflow-x: hidden;
+  position: fixed;
+  z-index: 1;
+}
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+
+    padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  
+  padding: 8px 16px;
+  
+/* Style the sidenav links and the dropdown button */
+.sidenav, a {
+  font-size: 20px;
+  font-family: Courier New;
+  display: block;
+  color: #ffcccc; 		
+  outline: none;  
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+  text-transform: uppercase;
+  border-color:#ffcccc; 
+  letter-spacing: 0.3em;
+ 
+}
+.dropdown-btn {
+  font-size: 20px;
+  font-family: Courier New;
+  display: block;
+  color: #FFF; 		
+  text-decoration: none;
+  border-bottom: 1px solid #555;
+  text-transform: uppercase;
+  border-color:#ffcccc; 
+  letter-spacing: 0.3em;
+  padding: 8px 16px;
+  background-color: #ffcccc;
+  outline-style: none;
+  outline: none;
+  border-right:#FFF;
+  padding-right: 94px;
+}
+
+
+
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: #FFF;
+  color: #ffcccc;
+  border-right: #ffcccc;
+  border-left: none;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  border-left:;
+  border-color:#D7263D; 
+}
+
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+
+
